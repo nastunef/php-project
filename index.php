@@ -18,7 +18,6 @@ if ($_POST['btn_show']) {
 <html>
 <body>
 	<form action="index.php" method="POST">
-		
 	    <textarea name="myTextArea" <?php echo $hidden ?> ><?php echo $text?></textarea>
 	    <button type="submit" name="btn_hide" value="btn_hide">Скрыть</button>
 	    <br>
